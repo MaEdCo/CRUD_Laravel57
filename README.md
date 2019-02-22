@@ -11,9 +11,19 @@ execute the following command.
 
    $ composer install
    
-Modify the name of the .env.example file. by .env and add our credentials.
+Modify the name of the .env.example file. by .env
+
+Create database SchoolDemo on MySQL
+
+CREATE DATABASE `schooldemo` /*!40100 COLLATE 'utf8_spanish_ci' */
+
+Run migrations
 
 $php artisan migrate
+
+Run the seeder
+
+php artisan migrate:refresh --seed
 
 Finally we just have to generate a key for our app.
 
