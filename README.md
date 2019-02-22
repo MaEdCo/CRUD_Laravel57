@@ -2,9 +2,10 @@ School Demo
 
 
 Installation
+<br>
 Download or clone the projet
 
-   $ cd name SchoolDemo
+  [code]$ cd name SchoolDemo[/code]
    
 We execute the following command.
 
