@@ -17,13 +17,9 @@ Create database SchoolDemo on MySQL
 
 CREATE DATABASE `schooldemo` /*!40100 COLLATE 'utf8_spanish_ci' */
 
-Run migrations
+Run migrations and the seeder
 
-$php artisan migrate
-
-Run the seeder
-
-php artisan migrate:refresh --seed
+$php artisan migrate:refresh --seed
 
 Finally we just have to generate a key for our app.
 
