@@ -7,11 +7,13 @@ Download or clone the projet
 
 $ cd name SchoolDemo
    
-We execute the following command.
+execute the following command.
 
    $ composer install
    
-Modify the name of the .env.example file. by .env and we add our credentials.
+Modify the name of the .env.example file. by .env and add our credentials.
+
+$php artisan migrate
 
 Finally we just have to generate a key for our app.
 
